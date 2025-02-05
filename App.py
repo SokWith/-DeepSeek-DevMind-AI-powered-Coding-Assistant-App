@@ -19,7 +19,7 @@ load_dotenv()
 groq_api_key = os.getenv('GROQ_API_KEY')
 
 # Set page configuration (MUST BE THE FIRST STREAMLIT COMMAND)
-st.set_page_config("🧠DeepSeek DevMind AI-powered Coding Assistant", page_icon="🧠", layout="wide")
+st.set_page_config("🧠DeepSeek DevMind AI-Powered Coding Assistant AI Agent APP", page_icon="🧠", layout="wide")
 
 # Custom CSS styling
 st.markdown("""
@@ -73,7 +73,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # App title and caption
-st.title("🧠DeepSeek DevMind AI-powered Coding Assistant")
+st.title("🧠DeepSeek DevMind AI-Powered Coding Assistant AI Agent APP")
 st.caption("🚀 Your AI Pair Programmer with Debugging Superpowers")
 
 # Sidebar configuration
